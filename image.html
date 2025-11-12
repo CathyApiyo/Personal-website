@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Apiyo Catherine - Image Gallery</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    h1 {
+      text-align: center;
+      color: #005f73;
+    }
+
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 30px;
+    }
+
+    .image-box {
+      text-align: center;
+      border: 1px solid #ccc;
+      padding: 10px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    .image-box img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 5px;
+    }
+
+    .image-width {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    nav {
+      background-color: #005f73;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav ul li {
+      display: inline;
+      margin: 0 15px;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: #005f73;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="index.html">Profile</a></li>
+      <li><a href="education.html">Education</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="image.html">Gallery</a></li>
+    </ul>
+  </nav>
+
+  <h1>My Image Gallery</h1>
+  <div style="display: flex; gap: 20px;">
+  <img src="Passport.jpg" style="width:150px; height:150px; border-radius: 50%;" alt="Circle">
+ <img src="happy family.jpg" alt="Rounded Image" style="width:250px; border-radius: 15px;">
+  <img src="school.jpg" style="width:150px; clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);" alt="Diamond">
+</div>
+
+  <footer>
+    <p>&copy; 2025 "For Bright Future Only". All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
+  
+  
+ 
